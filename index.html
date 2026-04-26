@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaceHQ Network | Minecraft Server</title>
+    <title>MaceHQ Hálózat | Minecraft Szerver</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigáció -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
                 <span class="minecraft-font">MaceHQ</span>
             </div>
             <div class="nav-menu">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#info" class="nav-link">Server Info</a>
+                <a href="#home" class="nav-link active">Kezdőlap</a>
+                <a href="#info" class="nav-link">Szerver Info</a>
                 <a href="#discord" class="nav-link">Discord</a>
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#rules" class="nav-link">Rules</a>
+                <a href="#features" class="nav-link">Jellemzők</a>
+                <a href="#rules" class="nav-link">Szabályok</a>
             </div>
             <div class="nav-connect">
                 <button class="btn-connect" onclick="copyIP()">
@@ -30,7 +30,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Szekció -->
     <section id="home" class="hero">
         <div class="hero-bg">
             <div class="block block-1"></div>
@@ -40,63 +40,43 @@
             <div class="block block-5"></div>
         </div>
         <div class="hero-content">
-            <div class="hero-badge">JOIN THE ADVENTURE</div>
+            <div class="hero-badge">CSATLKOZZ A KALANDHOZ</div>
             <h1 class="hero-title">
                 <span class="gradient-text">MaceHQ</span>
-                <br>Network
+                <br>Hálózat
             </h1>
-            <p class="hero-subtitle">The ultimate Minecraft SMP experience with custom gameplay, active community, and endless possibilities.</p>
+            <p class="hero-subtitle">A végső Minecraft SMP élmény egyedi játékzással, aktív közösséggel és végtelen lehetőségekkel.</p>
             <div class="hero-actions">
                 <button class="btn-primary" onclick="copyIP()">
-                    <span>Play Now</span>
+                    <span>Szeretnék Játszani</span>
                     <span class="btn-arrow">→</span>
                 </button>
                 <a href="#discord" class="btn-secondary">
-                    <span>Join Discord</span>
+                    <span>Csatlakozz Discordra</span>
                 </a>
             </div>
             <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number">100+</span>
-                    <span class="stat-label">Players</span>
-                </div>
-                <div class="stat-divider"></div>
                 <div class="stat-item">
                     <span class="stat-number">24/7</span>
                     <span class="stat-label">Online</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat-item">
-                    <span class="stat-number">1.20</span>
-                    <span class="stat-label">Version</span>
+                    <span class="stat-number">1.21</span>
+                    <span class="stat-label">Verzió</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Server Info Section -->
+    <!-- Szerver Info Szekció -->
     <section id="info" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Server Information</h2>
-                <p class="section-subtitle">Everything you need to know before joining</p>
+                <h2 class="section-title">Szerver Információk</h2>
+                <p class="section-subtitle">Minden amit tudnod kell mielőtt csatlakoznál</p>
             </div>
             <div class="info-grid">
-                <div class="info-card">
-                    <div class="info-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="9" cy="7" r="4"></circle>
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                        </svg>
-                    </div>
-                    <h3 class="info-title">Players Online</h3>
-                    <div class="player-count">47 / 100</div>
-                    <div class="player-bar">
-                        <div class="player-bar-fill" style="width: 47%"></div>
-                    </div>
-                </div>
                 <div class="info-card">
                     <div class="info-icon">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -104,20 +84,20 @@
                             <circle cx="12" cy="10" r="3"></circle>
                         </svg>
                     </div>
-                    <h3 class="info-title">Server Address</h3>
+                    <h3 class="info-title">Szerver Cím</h3>
                     <div class="server-address">macehq.mcplay.hu</div>
-                    <button class="btn-copy" onclick="copyIP()">Copy Address</button>
+                    <button class="btn-copy" onclick="copyIP()">Cím Másolása</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Discord Section -->
+    <!-- Discord Szekció -->
     <section id="discord" class="section discord-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Join Our Discord</h2>
-                <p class="section-subtitle">Connect with the community, get support, and stay updated</p>
+                <h2 class="section-title">Csatlakozz Discordra</h2>
+                <p class="section-subtitle">Csatlakozz a közösséghez, kérj segítséget, és maradj naprakész</p>
             </div>
             <div class="discord-card">
                 <div class="discord-content">
@@ -126,156 +106,132 @@
                             <path d="M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.26 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.01.06c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.53.31-1.08.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.69 1.18 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.01-.02.01-.04.01-.06c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z"/>
                         </svg>
                     </div>
-                    <h3 class="discord-title">MaceHQ Community</h3>
-                    <p class="discord-description">Join over 1,000 members in our active Discord community. Get help, share builds, and participate in events.</p>
+                    <h3 class="discord-title">MaceHQ Közösség</h3>
+                    <p class="discord-description">Csatlakozz több mint 100 aktív taghoz a Discord közösségünkben. Kapj segítséget, ossz meg építkezéseidet, és vedd részt az eseményekben.</p>
                     <a href="https://discord.gg/Zvpvb8VMfh" target="_blank" class="btn-discord">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.26 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.01.06c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.53.31-1.08.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.69 1.18 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.01-.02.01-.04.01-.06c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z"/>
                         </svg>
-                        Join Discord
+                        Csatlakozás Discordra
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
+    <!-- Jellemzők Szekció -->
     <section id="features" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Server Features</h2>
-                <p class="section-subtitle">What makes MaceHQ unique</p>
+                <h2 class="section-title">Szerver Jellemzők</h2>
+                <p class="section-subtitle">Mi teszi a MaceHQ-t egyedi</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
                         <span>⚒</span>
                     </div>
-                    <h3>Custom Plugins</h3>
-                    <p>Hand-crafted plugins for the best SMP experience with quality of life improvements.</p>
+                    <h3>Egyéni Pluginok</h3>
+                    <p>A legjobb SMP élményéért, minőségi életminőség javító eszközökkel.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <span>🛡</span>
                     </div>
-                    <h3>Active Anti-Cheat</h3>
-                    <p>Fair gameplay for everyone with our advanced anti-cheat system.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <span>🌍</span>
-                    </div>
-                    <h3>Protected Claims</h3>
-                    <p>Grief protection with easy land claiming to keep your builds safe.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <span>🎮</span>
-                    </div>
-                    <h3>Economy System</h3>
-                    <p>Player shops, auctions, and a balanced economy for trading resources.</p>
+                    <h3>Aktív Anti-Cheat</h3>
+                    <p>Mindenkinek egyenlő esélyt, halásztalan játék, fejlett anti-cheat rendszer.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <span>🏆</span>
                     </div>
-                    <h3>Weekly Events</h3>
-                    <p>Competitive events, build contests, and PvP tournaments with rewards.</p>
+                    <h3>Heti Események</h3>
+                    <p>Versenyes események, építkezési versenyek és PvP tornák jutalmakkal.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <span>🤝</span>
                     </div>
-                    <h3>Friendly Community</h3>
-                    <p>An active, welcoming community of builders, miners, and adventurers.</p>
+                    <h3>Barátságos Közösség</h3>
+                    <p>Az aktív, kedves közösség építői, ásványolók és kalandvágyók.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Staff Section -->
+    <!-- Szolgálati Csapat Szekció -->
     <section id="staff" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Staff Team</h2>
-                <p class="section-subtitle">Meet the people who run the server</p>
+                <h2 class="section-title">Szolgálati Csapat</h2>
+                <p class="section-subtitle">Ismerd meg a szerver menedzselőit</p>
             </div>
             <div class="staff-grid">
                 <div class="staff-card">
                     <div class="staff-avatar">👑</div>
-                    <h3>MaceOwner</h3>
-                    <span class="staff-role">Owner</span>
+                    <h3>Mystixxs</h3>
+                    <span class="staff-role">Tulajdonos</span>
+                </div>
+                <div class="staff-card">
+                    <div class="staff-avatar">👑</div>
+                    <h3>__Foxythatguy__</h3>
+                    <span class="staff-role">Tulajdonos</span>
                 </div>
                 <div class="staff-card">
                     <div class="staff-avatar">⭐</div>
-                    <h3>DevHero</h3>
-                    <span class="staff-role">Head Developer</span>
+                    <h3>NeonGamer322</h3>
+                    <span class="staff-role">Fejlesztő</span>
                 </div>
                 <div class="staff-card">
                     <div class="staff-avatar">🔧</div>
-                    <h3>TechAdmin</h3>
-                    <span class="staff-role">Admin</span>
-                </div>
-                <div class="staff-card">
-                    <div class="staff-avatar">🛡</div>
-                    <h3>ModMaster</h3>
-                    <span class="staff-role">Moderator</span>
-                </div>
-                <div class="staff-card">
-                    <div class="staff-avatar">📜</div>
-                    <h3>HelperGuy</h3>
-                    <span class="staff-role">Helper</span>
-                </div>
-                <div class="staff-card">
-                    <div class="staff-avatar">🎨</div>
-                    <h3>BuilderPro</h3>
-                    <span class="staff-role">Builder</span>
+                    <h3>Polokalap</h3>
+                    <span class="staff-role">Fejlesztő</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Rules Section -->
+    <!-- Szabályok Szekció -->
     <section id="rules" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Server Rules</h2>
-                <p class="section-subtitle">Please read and follow these rules</p>
+                <h2 class="section-title">Szerver Szabályok</h2>
+                <p class="section-subtitle">Kérjük, olvass el és tartsd be ezeket</p>
             </div>
             <div class="rules-container">
                 <div class="rule-item">
                     <div class="rule-number">1</div>
                     <div class="rule-content">
-                        <h4>No Griefing</h4>
-                        <p>Do not destroy, modify, or steal from other players' builds without permission.</p>
+                        <h4>Nincs Gázolás</h4>
+                        <p>Ne rombolj, módosíts, vagy lopj mások építéseit engedély nélkül.</p>
                     </div>
                 </div>
                 <div class="rule-item">
                     <div class="rule-number">2</div>
                     <div class="rule-content">
-                        <h4>Be Respectful</h4>
-                        <p>Treat all players and staff with respect. No hate speech, harassment, or discrimination.</p>
+                        <h4>Legyél Tisztelteljes</h4>
+                        <p>Mindenkit és mindent tisztelj. Ne legyen gyűlöletszó, zaklatás vagy megkülönböztetés.</p>
                     </div>
                 </div>
                 <div class="rule-item">
                     <div class="rule-number">3</div>
                     <div class="rule-content">
-                        <h4>No Cheating</h4>
-                        <p>No hacked clients, exploits, or unfair advantages. Play fair!</p>
+                        <h4>Nincs Csalás</h4>
+                        <p>Ne használj hacket, exploitokat, vagy egyéb előnyöket. Játssz fair!</p>
                     </div>
                 </div>
                 <div class="rule-item">
                     <div class="rule-number">4</div>
                     <div class="rule-content">
-                        <h4>No Advertising</h4>
-                        <p>Do not promote other servers, products, or services without permission.</p>
+                        <h4>Nincs Hirdetés</h4>
+                        <p>Ne hirdess más szervereket, termékeket vagy szolgáltatásokat engedély nélkül.</p>
                     </div>
                 </div>
                 <div class="rule-item">
                     <div class="rule-number">5</div>
                     <div class="rule-content">
-                        <h4>Keep it PG-13</h4>
-                        <p>Keep chat appropriate for all ages. Use common sense.</p>
+                        <h4>12+ Korhatár</h4>
+                        <p>Tartsd a chatet megfelelő szinten. Használd az érzelmeszót.</p>
                     </div>
                 </div>
             </div>
@@ -288,25 +244,25 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <span class="minecraft-font footer-logo">MaceHQ</span>
-                    <p class="footer-tagline">The ultimate Minecraft SMP experience</p>
+                    <p class="footer-tagline">A végső Minecraft SMP élmény</p>
                 </div>
                 <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#info">Server Info</a>
+                    <a href="#home">Kezdőlap</a>
+                    <a href="#info">Szerver Info</a>
                     <a href="#discord">Discord</a>
-                    <a href="#features">Features</a>
-                    <a href="#rules">Rules</a>
+                    <a href="#features">Jellemzők</a>
+                    <a href="#rules">Szabályok</a>
                 </div>
                 <div class="footer-bottom">
-                    <p>2026 MaceHQ Network. This is an independent server and is not affiliated with Mojang Studios.</p>
+                    <p>2026 MaceHQ Hálózat. Ez egy független szerver, nincs kapcsolata Mojang Studios-szel.</p>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Toast Notification -->
+    <!-- Toast Értesítés -->
     <div id="toast" class="toast">
-        <span>Server address copied to clipboard!</span>
+        <span>A szerver cím másolva a vágólapra!</span>
     </div>
 
     <script src="script.js"></script>

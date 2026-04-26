@@ -129,7 +129,13 @@ function showToast(message) {
     const toast = document.getElementById('toast');
     const toastText = toast.querySelector('span');
 
-    toastText.textContent = message;
+    if (message === 'Server address copied to clipboard!') {
+        toastText.textContent = 'A szerver cím másolva a vágólapra!';
+    } else if (message === 'Failed to copy address. Please copy manually.') {
+        toastText.textContent = 'Nem sikerült másolni. Másold be kézzel!';
+    } else {
+        toastText.textContent = message;
+    }
     toast.classList.add('show');
 
     setTimeout(() => {
