@@ -733,70 +733,55 @@ body {
     letter-spacing: 1px;
 }
 
-/* Store */
-.store-container {
-    max-width: 600px;
+/* Rules */
+.rules-container {
+    max-width: 800px;
     margin: 0 auto;
-}
-
-.store-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 20px;
-    padding: 3rem;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.store-card:hover {
-    border-color: var(--accent-gold);
-    box-shadow: 0 20px 60px rgba(251, 191, 36, 0.1);
-    transform: translateY(-8px);
-}
-
-.store-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 1rem;
+}
+
+.rule-item {
+    display: flex;
     gap: 1.5rem;
-}
-
-.store-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.store-description {
-    color: var(--text-secondary);
-    font-size: 1rem;
-    line-height: 1.8;
-    margin: 0;
-}
-
-.btn-store {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 1rem 2rem;
-    background: var(--gradient-2);
-    border: none;
+    align-items: flex-start;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
     border-radius: 12px;
-    color: var(--bg-primary);
-    font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
+    padding: 1.5rem 2rem;
     transition: all 0.3s ease;
 }
 
-.btn-store:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 40px rgba(251, 191, 36, 0.4);
+.rule-item:hover {
+    border-color: var(--accent-green);
+    background: rgba(74, 222, 128, 0.03);
 }
 
-.store-icon {
-    font-size: 1.2rem;
+.rule-number {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: var(--gradient-1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: var(--bg-primary);
+}
+
+.rule-content h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.rule-content p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
 }
 
 /* Footer */
