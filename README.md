@@ -26,4 +26,4 @@ Ez a projekt nyílt forráskódú. Érezd szabadon, hogy használd forrásul a s
 
 ---
 
-**MaceHQ Hálózat** - Az ultimáta FFA harci élmény ✨
+**ChaosFFA Hálózat** - Az ultimáta FFA harci élmény ✨

@@ -45,5 +45,5 @@ const server = http.createServer((req, res) => {
 const PORT = 8000;
 server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
-    console.log('Open this URL in your browser to test the MaceHQ website');
+    console.log('Open this URL in your browser to test the ChaosFFA website');
 });
